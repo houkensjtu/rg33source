@@ -1,0 +1,18 @@
+A makefile is included as an example for running on linux. It will, most likely,
+need to be edited.  
+
+A data file is also included to use as a template.  
+
+Note that there are two header files and two main program files.  The header 
+files only differ in that one will write that it was run on a PC and the other
+says it was run on linux.  The main program files differ in that the one that 
+is called main_win will only read from a file called "data.dat" whereas the 
+one called main will read from standard input.  Usually the executable 
+produced when compiling with the one called main is run from command line 
+using redirection, like this:
+
+                   rg33.exe < data1000
+
+If you compile all the .f90 files together without specifying one main 
+program and one header file, you will get an error message.
+

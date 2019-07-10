@@ -1,0 +1,15 @@
+&inp
+  nrun=1000
+  final_cycle=10
+  geometry = 4            gas_temp_cold=80.     
+  gas_temp_hot = 330.     herz = 13.
+  hydra_diam = 4.14e-5    mass_flux_cold = 4.32e-3   
+  material = 31
+  porosity = 0.62         
+  ave_pres=1.75e6         pres_phase=25.4            pres_ratio=1.50
+  rg_area = 7.92e-4       rg_length = 0.11
+  use_props_table = 0
+/
+
+This data contains only required input parameters and use_props_table=0.
+
